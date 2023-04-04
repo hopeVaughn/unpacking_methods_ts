@@ -161,6 +161,24 @@ return json;
 
 #### This way the objectToJson() function can convert a JavaScript object to a JSON string
 
+##### Function Call Map:
+
+`objectToJson(obj)
+├─ check if obj is null or not an object
+│   └─ throw an error if input is invalid
+├─ initialize json string
+├─ loop through each key in object
+│   ├─ get key and value
+│   ├─ determine type of value
+│   ├─ add value to json string based on its type
+│   │   ├─ add null, number, or boolean value
+│   │   ├─ add string value
+│   │   ├─ convert array to JSON string
+│   │   └─ recursively call objectToJson for nested object
+│   └─ continue loop for next key
+├─ remove trailing comma
+└─ add closing brace to json string`
+
 ## Acknowledgments <sup><sub>[top](#table-of-contents)</sub></sup>
 
 - [TypeScript](https://www.typescriptlang.org/)
