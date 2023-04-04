@@ -10,7 +10,7 @@ This project is designed to explain JavaScript methods in great detail through T
 - [JsonStringify Method](#jsonstringify-method)
 - [Acknowledgments](#acknowledgments)
 
-## Getting Started <a name="getting-started"></a> <sup><sub>[top](#table-of-contents)</sub></sup>
+## Getting Started <a name="getting-started"></a>
 
 To use this project, you will need to have [Node.js](https://nodejs.org/en/) installed on your computer.
 
@@ -24,7 +24,7 @@ To use this project, you will need to have [Node.js](https://nodejs.org/en/) ins
 
 - npm install
 
-## Running TypeScript Files <a name="running-typescript-files"></a> <sup><sub>[top](#table-of-contents)</sub></sup>
+## Running TypeScript Files <a name="running-typescript-files"></a>
 
 You can use the `npm start` command to run TypeScript files in your terminal and display their output.
 
