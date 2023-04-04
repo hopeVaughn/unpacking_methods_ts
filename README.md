@@ -1,4 +1,4 @@
-# Project Name
+# Unpacking JavaScript Methods in TypeScript
 
 This project is designed to explain JavaScript methods in great detail through TypeScript.
 
