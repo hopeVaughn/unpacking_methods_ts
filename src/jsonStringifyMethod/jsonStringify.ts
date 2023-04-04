@@ -2,7 +2,7 @@
  * Defines an interface that represents a JSON object. It can contain string, number, boolean, null,
  * other JSON objects and arrays of JSON objects.
  */
-interface JsonObject {
+export interface JsonObject {
   [key: string]: string | number | boolean | null | JsonObject | JsonObject[] | string[] | string;
 }
 
@@ -13,7 +13,7 @@ interface JsonObject {
  * @returns A JSON string representing the JavaScript object.
  * @throws An error if the input parameter is not an object.
  */
-function objectToJson(obj: JsonObject): string {
+export function objectToJson(obj: JsonObject): string {
   // Check if the input is not null, undefined and is an object. 
   // Throw an error if the input parameter is not an object.
   if (!obj || typeof obj !== "object") {
@@ -85,6 +85,7 @@ function objectToJson(obj: JsonObject): string {
   json += "}";
   return json;
 }
+
 
 // Test object 1
 const obj1 = { name: "Alice", age: 25, isActive: true };
