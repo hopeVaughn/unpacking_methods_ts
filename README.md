@@ -18,13 +18,25 @@ To use this project, you will need to have [Node.js](https://nodejs.org/en/) ins
 
 ## Running TypeScript Files
 
-You can use the `npm run` command to run TypeScript files in your terminal and display their output.
+You can use the `npm start` command to run TypeScript files in your terminal and display their output.
 
 To use this command, run the following command in your terminal:
 
-- npm run <file-name>
+- npm start
 
-Replace `<file-name>` with the name of the TypeScript file you want to run. You can specify the path to the file relative to the project root directory if it is in a folder. For example, if you have a file named `example.ts` in a folder called `src`, you can run it with the command `npm run src/example`.
+This will run the file indicated in the index.ts file. You can change the file that is run by changing the import statement in the index.ts file.
+
+## How to change the file that is run
+
+To change the file that is run, you will need to change the import statement in the index.ts file.
+
+The import statement should look like this:
+`import { functionName } from './path/to/file';`
+
+Then you will need to add function name to the console.log statement in the index.ts file.
+
+The console.log statement should look like this:
+`console.log(functionName);`
 
 This should transpile and run the TypeScript code in the specified file, displaying the output in the terminal.
 
