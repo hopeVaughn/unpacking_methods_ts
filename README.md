@@ -10,7 +10,7 @@ This project is designed to explain JavaScript methods in great detail through T
 - [JsonStringify Method](#jsonstringify-method)
 - [Acknowledgments](#acknowledgments)
 
-## Getting Started
+## Getting Started <a name="getting-started"></a> <sup><sub>[top](#table-of-contents)</sub></sup>
 
 To use this project, you will need to have [Node.js](https://nodejs.org/en/) installed on your computer.
 
@@ -24,7 +24,7 @@ To use this project, you will need to have [Node.js](https://nodejs.org/en/) ins
 
 - npm install
 
-## Running TypeScript Files
+## Running TypeScript Files <a name="running-typescript-files"></a> <sup><sub>[top](#table-of-contents)</sub></sup>
 
 You can use the `npm start` command to run TypeScript files in your terminal and display their output.
 
@@ -34,7 +34,7 @@ To use this command, run the following command in your terminal:
 
 This will run the file indicated in the index.ts file. You can change the file that is run by changing the import statement in the index.ts file.
 
-## How to Change the File that is Run
+## How to Change the File that is Run <a name="how-to-change-the-file-that-is-run"></a> <sup><sub>[top](#table-of-contents)</sub></sup>
 
 To change the file that is run, you will need to change the import statement in the index.ts file.
 
@@ -48,7 +48,7 @@ The console.log statement should look like this:
 
 This should transpile and run the TypeScript code in the specified file, displaying the output in the terminal.
 
-## JsonStringify Method
+## JsonStringify Method <a name="jsonstringify-method"></a> <sup><sub>[top](#table-of-contents)</sub></sup>
 
 Here is a detailed explanation of the `jsonStringify` method:
 
