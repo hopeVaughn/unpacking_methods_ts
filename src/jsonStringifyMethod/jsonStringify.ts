@@ -124,6 +124,7 @@ console.log(actualJson3 === expectedJson3 ? "PASS\n" : "FAIL\n");
 // Map of functional call and use
 
 /*
+
 objectToJson(obj)
 ├─ check if obj is null or not an object
 │   └─ throw an error if input is invalid
