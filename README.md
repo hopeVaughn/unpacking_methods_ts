@@ -163,7 +163,8 @@ return json;
 
 ##### Function Call Map:
 
-`objectToJson(obj)
+```
+objectToJson(obj)
 ├─ check if obj is null or not an object
 │   └─ throw an error if input is invalid
 ├─ initialize json string
@@ -177,7 +178,8 @@ return json;
 │   │   └─ recursively call objectToJson for nested object
 │   └─ continue loop for next key
 ├─ remove trailing comma
-└─ add closing brace to json string`
+└─ add closing brace to json string
+```
 
 ## Acknowledgments <sup><sub>[top](#table-of-contents)</sub></sup>
 
