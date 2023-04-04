@@ -16,13 +16,13 @@ To use this project, you will need to have [Node.js](https://nodejs.org/en/) ins
 
 1. Clone the repository to your local machine using the following command:
 
-- git clone git@github.com:hopeVaughn/unpacking_methods_ts.git
+`git clone git@github.com:hopeVaughn/unpacking_methods_ts.git`
 
 2. Navigate to the project directory in your terminal using the `cd` command.
 
 3. Install the project dependencies by running the following command:
 
-- npm install
+`npm install`
 
 ## Running TypeScript Files <a name="running-typescript-files"></a>
 
