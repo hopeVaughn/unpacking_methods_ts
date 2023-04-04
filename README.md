@@ -161,7 +161,7 @@ return json;
 
 #### This way the objectToJson() function can convert a JavaScript object to a JSON string
 
-## Acknowledgments
+## Acknowledgments <sup><sub>[top](#table-of-contents)</sub></sup>
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [ts-node](https://github.com/TypeStrong/ts-node)
