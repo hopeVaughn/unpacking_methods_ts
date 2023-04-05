@@ -3,7 +3,7 @@
  * other JSON objects and arrays of JSON objects.
  */
 export interface JsonObject {
-  [key: string]: string | number | boolean | null | JsonObject | JsonObject[] | string[] | string;
+  [key: string]: string | number | boolean | null | JsonObject | JsonObject[] | string[]
 }
 
 /**
@@ -121,24 +121,3 @@ console.log(`Actual:   ${actualJson3}`);
 console.log(actualJson3 === expectedJson3 ? "PASS\n" : "FAIL\n");
 
 
-// Map of functional call and use
-
-/*
-
-objectToJson(obj)
-├─ check if obj is null or not an object
-│   └─ throw an error if input is invalid
-├─ initialize json string
-├─ loop through each key in object
-│   ├─ get key and value
-│   ├─ determine type of value
-│   ├─ add value to json string based on its type
-│   │   ├─ add null, number, or boolean value
-│   │   ├─ add string value
-│   │   ├─ convert array to JSON string
-│   │   └─ recursively call objectToJson for nested object
-│   └─ continue loop for next key
-├─ remove trailing comma
-└─ add closing brace to json string
-
-*/
